@@ -162,9 +162,7 @@ class TicTacToe
     elsif draw? == true
       #tell players it ended in a draw
       puts "Cat\'s Game!"
-
     end
-
   end
 
 end
