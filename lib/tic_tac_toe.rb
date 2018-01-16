@@ -158,10 +158,10 @@ class TicTacToe
     elsif won? == true
       the_winner = winner
       puts "Congratulations #{the_winner}!"
-
       #congratulate winner
     elsif draw? == true
       #tell players it ended in a draw
+      puts "Cat\'s Game!"
 
     end
 
