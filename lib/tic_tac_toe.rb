@@ -157,7 +157,7 @@ class TicTacToe
       turn
     elsif won? == true
       the_winner = winner
-      puts "Congratulations #{{the_winner}}!"
+      puts "Congratulations #{the_winner}!"
 
       #congratulate winner
     elsif draw? == true
