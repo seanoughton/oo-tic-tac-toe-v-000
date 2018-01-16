@@ -156,9 +156,9 @@ class TicTacToe
     while over? == false
       turn
     end
-    if winner(board) == "X"
+    if winner == "X"
       puts "Congratulations X!"
-    elsif winner(board) == "O"
+    elsif winner == "O"
       puts "Congratulations O!"
     else
       puts "Cat's Game!"
