@@ -156,6 +156,7 @@ class TicTacToe
       turn
       if draw? == true
         puts "Cat's Game!"
+        return
       end
     end
     if winner == "X"
