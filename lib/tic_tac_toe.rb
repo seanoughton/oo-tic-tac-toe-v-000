@@ -153,9 +153,11 @@ class TicTacToe
   end
 
   def play
-    if over? == false
+    until over? == true
       turn
-    elsif won? == true
+    end
+
+    if won? == true
       the_winner = winner
       puts "Congratulations #{the_winner}!"
       #congratulate winner
